@@ -8,6 +8,15 @@
 import SwiftUI
 
 struct HomeTab: View {
+    
+    // Miniplayer properties
+    
+    @State var expand = false
+    
+    @Namespace var animation
+    
+    // Home TabBar body
+    
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom), content: {
             
@@ -23,14 +32,14 @@ struct HomeTab: View {
                         Image("RadioIcon")
                         Text("Радио")
                     }
-                Text("Search")
+                Search()
                     .tabItem {
                         Image("SearchIcon")
                         Text("Поиск")
                     }
             }
             
-            Miniplayer()
+            Miniplayer(animation: animation, expand: $expand)
             
         })
     }

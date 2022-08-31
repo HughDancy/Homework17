@@ -16,6 +16,7 @@
 		D863078928BE26B4004C555F /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863078828BE26B4004C555F /* MiniPlayer.swift */; };
 		D863078B28BE27ED004C555F /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863078A28BE27ED004C555F /* Search.swift */; };
 		D863078E28BE3074004C555F /* AlbumsImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863078D28BE3074004C555F /* AlbumsImages.swift */; };
+		D863079028BF26F0004C555F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863078F28BF26F0004C555F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D863078828BE26B4004C555F /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
 		D863078A28BE27ED004C555F /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		D863078D28BE3074004C555F /* AlbumsImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsImages.swift; sourceTree = "<group>"; };
+		D863078F28BF26F0004C555F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				D863078628BE26A4004C555F /* BlurView.swift */,
 				D863078828BE26B4004C555F /* MiniPlayer.swift */,
 				D863078A28BE27ED004C555F /* Search.swift */,
+				D863078F28BF26F0004C555F /* HomeView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				D863078728BE26A4004C555F /* BlurView.swift in Sources */,
 				D863077528BE257C004C555F /* ContentView.swift in Sources */,
 				D863078B28BE27ED004C555F /* Search.swift in Sources */,
+				D863079028BF26F0004C555F /* HomeView.swift in Sources */,
 				D863078928BE26B4004C555F /* MiniPlayer.swift in Sources */,
 				D863077328BE257C004C555F /* Homework17App.swift in Sources */,
 			);

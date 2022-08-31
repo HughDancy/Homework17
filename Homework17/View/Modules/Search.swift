@@ -22,7 +22,7 @@ struct Search: View {
             VStack(spacing: 18) {
                 HStack {
                     
-                    Text("Search")
+                    Text("Поиск")
                         .font(.largeTitle)
                         .fontWeight(.heavy)
                         .foregroundColor(.primary)
@@ -37,7 +37,7 @@ struct Search: View {
                         .foregroundColor(.primary)
                         .padding(.horizontal, 10)
                     
-                    TextField("Search", text: $search)
+                    TextField("Поиск", text: $search)
                 }
                 .padding(.vertical, 10)
                 .padding(.horizontal)

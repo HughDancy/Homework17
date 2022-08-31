@@ -22,19 +22,19 @@ struct HomeTab: View {
             
             TabView {
                 
-                Text("Listen")
+                HomeView()
                     .tabItem {
-                        Image("HomeIcon")
+                        Image(systemName: "music.note.house.fill")
                         Text("Слушать")
                     }
                 Text("Radio")
                     .tabItem {
-                        Image("RadioIcon")
+                        Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                     }
                 Search()
                     .tabItem {
-                        Image("SearchIcon")
+                        Image(systemName: "magnifyingglass")
                         Text("Поиск")
                     }
             }

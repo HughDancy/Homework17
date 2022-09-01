@@ -13,8 +13,6 @@ struct Search: View {
     
     var columns = Array(repeating: GridItem(.flexible(), spacing: 20), count: 2)
     
-    
-    
     var body: some View {
         
         ScrollView(showsIndicators: false) {
@@ -39,6 +37,7 @@ struct Search: View {
                     
                     TextField("Поиск", text: $search)
                 }
+                
                 .padding(.vertical, 10)
                 .padding(.horizontal)
                 .background(Color.primary.opacity(0.06))
@@ -52,7 +51,6 @@ struct Search: View {
                             .aspectRatio(contentMode: .fill)
                             .frame(width: (UIScreen.main.bounds.width - 50) / 2, height: 180)
                             .cornerRadius(15)
-                        
                     }
                 }
             }

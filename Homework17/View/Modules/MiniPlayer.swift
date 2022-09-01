@@ -42,7 +42,6 @@ struct Miniplayer: View {
                         .matchedGeometryEffect(id: "Label", in: animation)
                 }
                 
-                
                 Spacer(minLength: 0)
                 
                 if !expand {

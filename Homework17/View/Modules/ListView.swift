@@ -14,17 +14,11 @@ struct ListView: View {
     
     var body: some View {
         
-        
         List(selection: $multisection) {
             ForEach(categories, id: \.self) { element in
-                HStack {
-                    Image(systemName: element.icon)
-                        .foregroundColor(.pink)
-                    Text(element.category)
-                }
+                CustomCell(title: element.category, image: element.icon)
+                
             } .onMove(perform: move)
-            
-            
         }
         .environment(\.editMode, Binding.constant(EditMode.active))
         .listStyle(.plain)
@@ -32,7 +26,6 @@ struct ListView: View {
         .accentColor(.pink)
         
         .toolbar {
-            
             Button("Готово") {
                 presentationMode.wrappedValue.dismiss()
             }
@@ -44,7 +37,6 @@ struct ListView: View {
         
     }
 }
-
 
 struct MediaView_Previews: PreviewProvider {
     static var previews: some View {

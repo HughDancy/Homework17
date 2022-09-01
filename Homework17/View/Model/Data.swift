@@ -8,36 +8,36 @@
 import Foundation
 import SwiftUI
 
-struct AlbumsImages: Hashable {
+struct Data: Hashable {
     
     let image: String
 }
 
 var albumImages = [
-    AlbumsImages(image: "ahig"),
-    AlbumsImages(image: "slipknot"),
-    AlbumsImages(image: "Architects"),
-    AlbumsImages(image: "badOmens"),
-    AlbumsImages(image: "DeathStranding"),
-    AlbumsImages(image: "hybridTheory"),
-    AlbumsImages(image: "marilyn"),
-    AlbumsImages(image: "maybe01"),
-    AlbumsImages(image: "maybe02"),
-    AlbumsImages(image: "nevermind"),
-    AlbumsImages(image: "Nirvana"),
-    AlbumsImages(image: "scaledAndIcy"),
-    AlbumsImages(image: "trench"),
-    AlbumsImages(image: "youth"),
-    AlbumsImages(image: "bring01"),
-    AlbumsImages(image: "bring02"),
-    AlbumsImages(image: "bring03"),
-    AlbumsImages(image: "fall01"),
-    AlbumsImages(image: "fall02"),
-    AlbumsImages(image: "fall03"),
-    AlbumsImages(image: "placebo01"),
-    AlbumsImages(image: "placebo02"),
-    AlbumsImages(image: "birdy"),
-    AlbumsImages(image: "meg")
+    Data(image: "ahig"),
+    Data(image: "slipknot"),
+    Data(image: "Architects"),
+    Data(image: "badOmens"),
+    Data(image: "DeathStranding"),
+    Data(image: "hybridTheory"),
+    Data(image: "marilyn"),
+    Data(image: "maybe01"),
+    Data(image: "maybe02"),
+    Data(image: "nevermind"),
+    Data(image: "Nirvana"),
+    Data(image: "scaledAndIcy"),
+    Data(image: "trench"),
+    Data(image: "youth"),
+    Data(image: "bring01"),
+    Data(image: "bring02"),
+    Data(image: "bring03"),
+    Data(image: "fall01"),
+    Data(image: "fall02"),
+    Data(image: "fall03"),
+    Data(image: "placebo01"),
+    Data(image: "placebo02"),
+    Data(image: "birdy"),
+    Data(image: "meg")
 ]
 
 struct Categories: Hashable, Identifiable {

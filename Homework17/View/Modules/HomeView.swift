@@ -27,7 +27,8 @@ struct HomeView: View {
             
             .navigationTitle("Медиатека")
             .toolbar {
-                Button(action: {}) {
+            
+                NavigationLink(destination: MediaView()) {
                     Text("Править")
                         .foregroundColor(.pink)
                 }

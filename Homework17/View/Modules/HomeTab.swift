@@ -22,7 +22,7 @@ struct HomeTab: View {
             
             TabView {
                 
-                HomeView()
+                LibraryView()
                     .tabItem {
                         Image(systemName: "music.note.house.fill")
                         Text("Слушать")
@@ -38,6 +38,7 @@ struct HomeTab: View {
                         Text("Поиск")
                     }
             }
+            .accentColor(.pink)
             
             Miniplayer(animation: animation, expand: $expand)
             

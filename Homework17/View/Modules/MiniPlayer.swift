@@ -32,11 +32,12 @@ struct Miniplayer: View {
                 Image("Nirvana")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
+                    .shadow(radius: 7)
                     .frame(width: expand ? height : 55, height: expand ? height : 55)
                     .cornerRadius(15)
                 if !expand {
-                    Text("Nirvana")
-                        .font(.title2)
+                    Text("Nirvana - Rape Me")
+                        .font(.callout)
                         .fontWeight(.bold)
                         .matchedGeometryEffect(id: "Label", in: animation)
                 }
@@ -76,6 +77,7 @@ struct Miniplayer: View {
                             .fontWeight(.bold)
                             .matchedGeometryEffect(id: "Label", in: animation)
                     }
+                    
                     Spacer(minLength: 0)
                     
                     Button(action: {}) {

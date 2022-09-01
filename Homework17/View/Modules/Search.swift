@@ -13,11 +13,11 @@ struct Search: View {
     
     var columns = Array(repeating: GridItem(.flexible(), spacing: 20), count: 2)
     
-   
+    
     
     var body: some View {
-       
-        ScrollView {
+        
+        ScrollView(showsIndicators: false) {
             
             VStack(spacing: 18) {
                 HStack {

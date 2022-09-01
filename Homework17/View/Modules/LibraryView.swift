@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct LibraryView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 2) {
@@ -27,11 +27,13 @@ struct HomeView: View {
             
             .navigationTitle("Медиатека")
             .toolbar {
-            
-                NavigationLink(destination: MediaView()) {
+                
+                NavigationLink(destination: ListView()) {
                     Text("Править")
                         .foregroundColor(.pink)
                 }
+                
+                
             }
         }
         
@@ -40,6 +42,6 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        LibraryView()
     }
 }

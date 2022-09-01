@@ -27,7 +27,17 @@ var albumImages = [
     AlbumsImages(image: "Nirvana"),
     AlbumsImages(image: "scaledAndIcy"),
     AlbumsImages(image: "trench"),
-    AlbumsImages(image: "youth")
+    AlbumsImages(image: "youth"),
+    AlbumsImages(image: "bring01"),
+    AlbumsImages(image: "bring02"),
+    AlbumsImages(image: "bring03"),
+    AlbumsImages(image: "fall01"),
+    AlbumsImages(image: "fall02"),
+    AlbumsImages(image: "fall03"),
+    AlbumsImages(image: "placebo01"),
+    AlbumsImages(image: "placebo02"),
+    AlbumsImages(image: "birdy"),
+    AlbumsImages(image: "meg")
 ]
 
 struct Categories: Hashable, Identifiable {

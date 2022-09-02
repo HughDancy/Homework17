@@ -11,19 +11,20 @@ struct RadioScreen: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical) {
+                Divider()
                 RadioH()
                     .padding()
+                Divider()
                 HStack {
                     Text("Станции")
                         .font(.title)
                         .fontWeight(.bold)
                         .padding()
-                    
                     Spacer()
                 }
-                
-                
-            
+                RadioVertical()
+                    .frame(alignment: .leading)
+                    .edgesIgnoringSafeArea(.leading)
             }
             .navigationTitle("Радио")
         }

@@ -10,12 +10,16 @@ import SwiftUI
 struct RadioVertical: View {
     
     var columns = [
-        GridItem(.flexible(minimum: 100, maximum: 100), spacing: 500)
+        GridItem(.flexible(), spacing: 1)
     ]
     
     var body: some View {
-        ScrollView(.vertical) {
-           
+        ScrollView() {
+            LazyVGrid(columns: columns, spacing: 1) {
+                ForEach(vRadoiData, id: \.self) { radio in
+                    Vrow(title: radio.title, image: radio.image)
+                }
+            }
         }
     }
 }

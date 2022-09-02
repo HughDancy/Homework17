@@ -122,10 +122,9 @@
 		D863078328BE2672004C555F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D89467D528C22CE900EDFAF9 /* Library and List */,
+				D89467D428C22CCD00EDFAF9 /* Search */,
 				D863078428BE268D004C555F /* HomeTab.swift */,
-				D863078A28BE27ED004C555F /* Search.swift */,
-				D863078F28BF26F0004C555F /* LibraryView.swift */,
-				D863079128BF3D55004C555F /* ListView.swift */,
 				D89467C828C2011A00EDFAF9 /* Radio */,
 				D89467C528C200DE00EDFAF9 /* MiniPlayer */,
 			);
@@ -168,6 +167,23 @@
 				D89467CC28C2013B00EDFAF9 /* Vrow.swift */,
 			);
 			path = Rows;
+			sourceTree = "<group>";
+		};
+		D89467D428C22CCD00EDFAF9 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D863078A28BE27ED004C555F /* Search.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D89467D528C22CE900EDFAF9 /* Library and List */ = {
+			isa = PBXGroup;
+			children = (
+				D863078F28BF26F0004C555F /* LibraryView.swift */,
+				D863079128BF3D55004C555F /* ListView.swift */,
+			);
+			path = "Library and List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
